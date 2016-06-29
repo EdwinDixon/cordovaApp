@@ -1,0 +1,194 @@
+--------- beginning of main
+06-29 19:18:25.715 17755 17755 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+06-29 19:18:25.718 17755 17755 D AndroidRuntime: CheckJNI is ON
+06-29 19:18:25.745 17755 17755 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+06-29 19:18:25.814 17755 17755 E memtrack: Couldn't load memtrack module (No such file or directory)
+06-29 19:18:25.814 17755 17755 E android.os.Debug: failed to load memtrack module: -2
+06-29 19:18:25.816 17755 17755 I Radio-JNI: register_android_hardware_Radio DONE
+06-29 19:18:25.834 17755 17755 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+--------- beginning of system
+06-29 19:18:25.854 17241 17253 D DefContainer: Copying /data/local/tmp/android-debug.apk to base.apk
+06-29 19:18:26.081  1660  1702 I PackageManager.DexOptimizer: Running dexopt (dex2oat) on: /data/app/vmdl96679577.tmp/base.apk pkg=com.ionicframework.pling694359 isa=x86 vmSafeMode=false debuggable=true oatDir = /data/app/vmdl96679577.tmp/oat
+06-29 19:18:26.099 17764 17764 W dex2oat : Unexpected CPU variant for X86 using defaults: x86
+06-29 19:18:26.099 17764 17764 W dex2oat : Mismatch between dex2oat instruction set features (ISA: X86 Feature string: smp,-ssse3,-sse4.1,-sse4.2,-avx,-avx2) and those of dex2oat executable (ISA: X86 Feature string: smp,ssse3,-sse4.1,-sse4.2,-avx,-avx2) for the command line:
+06-29 19:18:26.099 17764 17764 W dex2oat : /system/bin/dex2oat --zip-fd=6 --zip-location=base.apk --oat-fd=7 --oat-location=/data/app/vmdl96679577.tmp/oat/x86/base.odex --instruction-set=x86 --instruction-set-variant=x86 --instruction-set-features=default --runtime-arg -Xms64m --runtime-arg -Xmx512m --swap-fd=8 --debuggable
+06-29 19:18:26.100 17764 17764 I dex2oat : /system/bin/dex2oat --debuggable
+06-29 19:18:26.100 17764 17764 E cutils-trace: Error opening trace file: Permission denied (13)
+06-29 19:18:26.256 17764 17764 I dex2oat : dex2oat took 156.709ms (threads: 2) arena alloc=132KB java alloc=212KB native alloc=1786KB free=1541KB
+06-29 19:18:26.264  1660  1682 I ActivityManager: Force stopping com.ionicframework.pling694359 appid=10047 user=-1: uninstall pkg
+06-29 19:18:26.613  1660  1702 I PackageManager: Package com.ionicframework.pling694359 codePath changed from /data/app/com.ionicframework.pling694359-1 to /data/app/com.ionicframework.pling694359-2; Retaining data and using new
+06-29 19:18:26.613  1660  1702 W PackageManager: Code path for com.ionicframework.pling694359 changing from /data/app/com.ionicframework.pling694359-1 to /data/app/com.ionicframework.pling694359-2
+06-29 19:18:26.613  1660  1702 W PackageManager: Resource path for com.ionicframework.pling694359 changing from /data/app/com.ionicframework.pling694359-1 to /data/app/com.ionicframework.pling694359-2
+06-29 19:18:26.613  1660  1682 I ActivityManager: Force stopping com.ionicframework.pling694359 appid=10047 user=-1: replace pkg
+06-29 19:18:26.902  1660  1702 W Settings: Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+06-29 19:18:26.903  1660  1702 I art     : Starting a blocking GC Explicit
+06-29 19:18:26.937  1660  1702 I art     : Explicit concurrent mark sweep GC freed 35918(2MB) AllocSpace objects, 18(772KB) LOS objects, 33% free, 5MB/7MB, paused 561us total 29.642ms
+06-29 19:18:26.941  1660  1702 W PackageManager: Couldn't remove dex file for package:  at location /data/app/com.ionicframework.pling694359-1/base.apk, retcode=-1
+06-29 19:18:26.942  1660  1702 I ActivityManager: Force stopping com.ionicframework.pling694359 appid=10047 user=0: pkg removed
+06-29 19:18:26.943 17755 17755 I art     : System.exit called, status: 0
+06-29 19:18:26.943 17755 17755 I AndroidRuntime: VM exiting with result code 0.
+06-29 19:18:26.980  1660  1660 D JobSchedulerService: Receieved: android.intent.action.PACKAGE_REMOVED
+06-29 19:18:26.986  1660  1803 I InputReader: Reconfiguring input devices.  changes=0x00000010
+06-29 19:18:27.015  1660  1803 I InputReader: Reconfiguring input devices.  changes=0x00000010
+06-29 19:18:27.016  2143  2143 D CarrierServiceBindHelper: Receive action: android.intent.action.PACKAGE_REMOVED
+06-29 19:18:27.020 17391 17391 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1221 android.content.ContextWrapper.startService:581 android.content.ContextWrapper.startService:581 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2725 
+06-29 19:18:27.033  1660  1803 I InputReader: Reconfiguring input devices.  changes=0x00000010
+06-29 19:18:27.072  2143  2143 D CarrierServiceBindHelper: Receive action: android.intent.action.PACKAGE_ADDED
+06-29 19:18:27.072  2143  2143 D CarrierServiceBindHelper: mHandler: 3
+06-29 19:18:27.072  2143  2143 D CarrierServiceBindHelper: Receive action: android.intent.action.PACKAGE_REPLACED
+06-29 19:18:27.073  2143  2143 D CarrierServiceBindHelper: mHandler: 3
+06-29 19:18:27.073  2143  2143 D CarrierServiceBindHelper: mHandler: 3
+06-29 19:18:27.074  2143  2143 D CarrierConfigLoader: mHandler: 9 phoneId: 0
+06-29 19:18:27.103  1660  1681 W VoiceInteractionManagerService: no available voice recognition services found for user 0
+06-29 19:18:27.623 17771 17771 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+06-29 19:18:27.626 17771 17771 D AndroidRuntime: CheckJNI is ON
+06-29 19:18:27.654 17771 17771 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+06-29 19:18:27.712 17771 17771 E memtrack: Couldn't load memtrack module (No such file or directory)
+06-29 19:18:27.712 17771 17771 E android.os.Debug: failed to load memtrack module: -2
+06-29 19:18:27.715 17771 17771 I Radio-JNI: register_android_hardware_Radio DONE
+06-29 19:18:27.732 17771 17771 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+06-29 19:18:27.733 17771 17771 I Input   : injectKeyEvent: KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=3148480, downTime=3148480, deviceId=-1, source=0x101 }
+06-29 19:18:27.738 17771 17771 I Input   : injectKeyEvent: KeyEvent { action=ACTION_UP, keyCode=KEYCODE_MENU, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=3148480, downTime=3148480, deviceId=-1, source=0x101 }
+06-29 19:18:27.739 17771 17771 D AndroidRuntime: Shutting down VM
+06-29 19:18:28.720 17781 17781 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+06-29 19:18:28.725 17781 17781 D AndroidRuntime: CheckJNI is ON
+06-29 19:18:28.782 17781 17781 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+06-29 19:18:28.846 17781 17781 E memtrack: Couldn't load memtrack module (No such file or directory)
+06-29 19:18:28.846 17781 17781 E android.os.Debug: failed to load memtrack module: -2
+06-29 19:18:28.849 17781 17781 I Radio-JNI: register_android_hardware_Radio DONE
+06-29 19:18:28.869 17781 17781 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+06-29 19:18:28.883  1660  2451 I ActivityManager: START u0 {act=android.intent.action.MAIN flg=0x10000000 cmp=com.ionicframework.pling694359/.MainActivity} from uid 0 on display 0
+06-29 19:18:29.001 17790 17790 I art     : Not late-enabling -Xcheck:jni (already on)
+06-29 19:18:29.003  1660  2171 I ActivityManager: Start proc 17790:com.ionicframework.pling694359/u0a47 for activity com.ionicframework.pling694359/.MainActivity
+06-29 19:18:29.063 17790 17790 W System  : ClassLoader referenced unknown path: /data/app/com.ionicframework.pling694359-2/lib/x86
+06-29 19:18:29.074 17790 17790 I WebViewFactory: Loading com.android.webview version 44.0.2403.119 (code 246011910)
+06-29 19:18:29.094 17790 17790 W System  : ClassLoader referenced unknown path: /system/app/webview/lib/x86
+06-29 19:18:29.101 17790 17790 I LibraryLoader: Time to load native libraries: 2 ms (timestamps 9846-9848)
+06-29 19:18:29.101 17790 17790 I LibraryLoader: Expected native library version number "",actual native library version number ""
+06-29 19:18:29.140 17790 17790 V WebViewChromiumFactoryProvider: Binding Chromium to main looper Looper (main, tid 1) {ddf5c04}
+06-29 19:18:29.140 17790 17790 I LibraryLoader: Expected native library version number "",actual native library version number ""
+06-29 19:18:29.141 17790 17790 I chromium: [INFO:library_loader_hooks.cc(120)] Chromium logging enabled: level = 0, default verbosity = 0
+06-29 19:18:29.145 17790 17790 I BrowserStartupController: Initializing chromium process, singleProcess=true
+06-29 19:18:29.145 17790 17790 W art     : Attempt to remove non-JNI local reference, dumping thread
+06-29 19:18:29.146 17790 17790 E SysUtils: ApplicationContext is null in ApplicationStatus
+06-29 19:18:29.173 17790 17790 W chromium: [WARNING:resource_bundle.cc(285)] locale_file_path.empty()
+06-29 19:18:29.176 17790 17790 E libEGL  : validate_display:255 error 3008 (EGL_BAD_DISPLAY)
+06-29 19:18:29.176 17790 17790 E libEGL  : validate_display:255 error 3008 (EGL_BAD_DISPLAY)
+06-29 19:18:29.176 17790 17790 E chromium: [ERROR:gl_surface_egl.cc(327)] No suitable EGL configs found.
+06-29 19:18:29.176 17790 17790 E chromium: [ERROR:gl_surface_android.cc(23)] GLSurfaceEGL::InitializeOneOff failed.
+06-29 19:18:29.176 17790 17790 E chromium: [ERROR:browser_main_loop.cc(698)] GLSurface::InitializeOneOff failed
+06-29 19:18:29.188 17790 17816 W AudioManagerAndroid: Requires BLUETOOTH permission
+06-29 19:18:29.191 17790 17790 E DataReductionProxySettingListener: No DRP key due to exception:java.lang.ClassNotFoundException: com.android.webview.chromium.Drp
+06-29 19:18:29.216 17790 17790 W art     : Attempt to remove non-JNI local reference, dumping thread
+06-29 19:18:29.222 17790 17790 W AwContents: onDetachedFromWindow called when already detached. Ignoring
+06-29 19:18:29.232 17790 17790 D SystemWebViewEngine: CordovaWebView is running on device made by: unknown
+06-29 19:18:29.240 17790 17790 W art     : Attempt to remove non-JNI local reference, dumping thread
+06-29 19:18:29.240 17790 17790 W art     : Attempt to remove non-JNI local reference, dumping thread
+06-29 19:18:29.314 17790 17790 V StatusBar: StatusBar: initialization
+06-29 19:18:29.327  1184  1184 E SELinux : avc:  denied  { find } for service=batteryproperties scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:healthd_service:s0 tclass=service_manager
+06-29 19:18:29.375 17790 17814 W chromium: [WARNING:data_reduction_proxy_config.cc(423)] SPDY proxy OFF at startup
+06-29 19:18:29.642  1660 17639 I WindowManager: Switching to real app window: Window{151396f u0 com.ionicframework.pling694359/com.ionicframework.pling694359.MainActivity}
+06-29 19:18:29.658 17790 17790 D gralloc_ranchu: Emulator without host-side GPU emulation detected.
+06-29 19:18:30.058 17790 17829 F chromium: [FATAL:gl_surface_android.cc(58)] Check failed: kGLImplementationNone != GetGLImplementation() (0 vs. 0)
+--------- beginning of crash
+06-29 19:18:30.058 17790 17829 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 17829 (GpuThread)
+06-29 19:18:30.138  1660  1693 I ActivityManager: Displayed com.ionicframework.pling694359/.MainActivity: +1s147ms
+06-29 19:18:30.139 17781 17781 D AndroidRuntime: Shutting down VM
+06-29 19:18:30.163  1200  1200 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-29 19:18:30.164  1200  1200 F DEBUG   : Build fingerprint: 'Android/sdk_phone_x86/generic_x86:6.0/MASTER/2780065:userdebug/test-keys'
+06-29 19:18:30.164  1200  1200 F DEBUG   : Revision: '0'
+06-29 19:18:30.164  1200  1200 F DEBUG   : ABI: 'x86'
+06-29 19:18:30.164  1200  1200 F DEBUG   : pid: 17790, tid: 17829, name: GpuThread  >>> com.ionicframework.pling694359 <<<
+06-29 19:18:30.164  1200  1200 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-29 19:18:30.177  1200  1200 F DEBUG   : Abort message: '[FATAL:gl_surface_android.cc(58)] Check failed: kGLImplementationNone != GetGLImplementation() (0 vs. 0)
+06-29 19:18:30.177  1200  1200 F DEBUG   : '
+06-29 19:18:30.177  1200  1200 F DEBUG   :     eax 00000000  ebx 0000457e  ecx 000045a5  edx 00000006
+06-29 19:18:30.177  1200  1200 F DEBUG   :     esi 9df75980  edi 00000000
+06-29 19:18:30.177  1200  1200 F DEBUG   :     xcs 00000073  xds 0000007b  xes 0000007b  xfs 000000b7  xss 0000007b
+06-29 19:18:30.177  1200  1200 F DEBUG   :     eip b72fa596  ebp 000045a5  esp 9df74c40  flags 00200206
+06-29 19:18:30.179  1200  1200 F DEBUG   : 
+06-29 19:18:30.179  1200  1200 F DEBUG   : backtrace:
+06-29 19:18:30.179  1200  1200 F DEBUG   :     #00 pc 00084596  /system/lib/libc.so (tgkill+22)
+06-29 19:18:30.179  1200  1200 F DEBUG   :     #01 pc 000815e8  /system/lib/libc.so (pthread_kill+70)
+06-29 19:18:30.179  1200  1200 F DEBUG   :     #02 pc 00027205  /system/lib/libc.so (raise+36)
+06-29 19:18:30.179  1200  1200 F DEBUG   :     #03 pc 000209e4  /system/lib/libc.so (abort+80)
+06-29 19:18:30.179  1200  1200 F DEBUG   :     #04 pc 0037328a  /system/app/webview/webview.apk (offset 0x7ea000)
+06-29 19:18:30.179  1200  1200 F DEBUG   :     #05 pc 000009a3  /data/misc/shared_relro/libwebviewchromium32.relro
+06-29 19:18:30.658  1200  1200 F DEBUG   : 
+06-29 19:18:30.658  1200  1200 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_02
+06-29 19:18:30.658  1200  1200 E DEBUG   : AM write failed: Broken pipe
+06-29 19:18:30.672  1660  1691 I BootReceiver: Copying /data/tombstones/tombstone_02 to DropBox (SYSTEM_TOMBSTONE)
+06-29 19:18:30.695  1660 17834 W ActivityManager:   Force finishing activity com.ionicframework.pling694359/.MainActivity
+06-29 19:18:30.712  1186  1186 D gralloc : Registering a buffer in the process that created it. This may cause memory ordering problems.
+06-29 19:18:30.712  1186  1186 E libEGL  : called unimplemented OpenGL ES API
+06-29 19:18:30.712  1186  1186 E SurfaceFlinger: glCheckFramebufferStatusOES error 198843788
+06-29 19:18:30.712  1186  1186 E SurfaceFlinger: got GL_FRAMEBUFFER_COMPLETE_OES error while taking screenshot
+06-29 19:18:30.743  1660 17834 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 104)
+06-29 19:18:30.744  1660 17834 W ActivityManager: Exception thrown during pause
+06-29 19:18:30.744  1660 17834 W ActivityManager: android.os.DeadObjectException: Transaction failed on small parcel; remote process probably died
+06-29 19:18:30.744  1660 17834 W ActivityManager: 	at android.os.BinderProxy.transactNative(Native Method)
+06-29 19:18:30.744  1660 17834 W ActivityManager: 	at android.os.BinderProxy.transact(Binder.java:503)
+06-29 19:18:30.744  1660 17834 W ActivityManager: 	at android.app.ApplicationThreadProxy.schedulePauseActivity(ApplicationThreadNative.java:727)
+06-29 19:18:30.744  1660 17834 W ActivityManager: 	at com.android.server.am.ActivityStack.startPausingLocked(ActivityStack.java:867)
+06-29 19:18:30.744  1660 17834 W ActivityManager: 	at com.android.server.am.ActivityStack.finishActivityLocked(ActivityStack.java:2907)
+06-29 19:18:30.744  1660 17834 W ActivityManager: 	at com.android.server.am.ActivityStack.finishTopRunningActivityLocked(ActivityStack.java:2763)
+06-29 19:18:30.744  1660 17834 W ActivityManager: 	at com.android.server.am.ActivityStackSupervisor.finishTopRunningActivityLocked(ActivityStackSupervisor.java:2755)
+06-29 19:18:30.744  1660 17834 W ActivityManager: 	at com.android.server.am.ActivityManagerService.handleAppCrashLocked(ActivityManagerService.java:11971)
+06-29 19:18:30.744  1660 17834 W ActivityManager: 	at com.android.server.am.ActivityManagerService.makeAppCrashingLocked(ActivityManagerService.java:11867)
+06-29 19:18:30.744  1660 17834 W ActivityManager: 	at com.android.server.am.ActivityManagerService.crashApplication(ActivityManagerService.java:12556)
+06-29 19:18:30.744  1660 17834 W ActivityManager: 	at com.android.server.am.ActivityManagerService.handleApplicationCrashInner(ActivityManagerService.java:12063)
+06-29 19:18:30.744  1660 17834 W ActivityManager: 	at com.android.server.am.NativeCrashListener$NativeCrashReporter.run(NativeCrashListener.java:86)
+06-29 19:18:30.754  1660  1693 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 60)
+06-29 19:18:30.803  1660  1802 W InputDispatcher: channel '373bf13 com.ionicframework.pling694359/com.ionicframework.pling694359.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+06-29 19:18:30.803  1660  1802 E InputDispatcher: channel '373bf13 com.ionicframework.pling694359/com.ionicframework.pling694359.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+06-29 19:18:30.804  1660  1802 W InputDispatcher: channel '151396f com.ionicframework.pling694359/com.ionicframework.pling694359.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+06-29 19:18:30.804  1660  1802 E InputDispatcher: channel '151396f com.ionicframework.pling694359/com.ionicframework.pling694359.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+06-29 19:18:30.804  1206  1206 I Zygote  : Process 17790 exited due to signal (6)
+06-29 19:18:30.805  1660  2140 I WindowState: WIN DEATH: Window{151396f u0 com.ionicframework.pling694359/com.ionicframework.pling694359.MainActivity}
+06-29 19:18:30.806  1660  2140 W InputDispatcher: Attempted to unregister already unregistered input channel '151396f com.ionicframework.pling694359/com.ionicframework.pling694359.MainActivity (server)'
+06-29 19:18:30.815  1660  2169 I WindowState: WIN DEATH: Window{373bf13 u0 com.ionicframework.pling694359/com.ionicframework.pling694359.MainActivity}
+06-29 19:18:30.815  1660  2169 W InputDispatcher: Attempted to unregister already unregistered input channel '373bf13 com.ionicframework.pling694359/com.ionicframework.pling694359.MainActivity (server)'
+06-29 19:18:30.820  1660  2232 I ActivityManager: Process com.ionicframework.pling694359 (pid 17790) has died
+06-29 19:18:30.877  1660  1672 I art     : Background partial concurrent mark sweep GC freed 4770(294KB) AllocSpace objects, 2(36KB) LOS objects, 33% free, 5MB/8MB, paused 2.125ms total 145.488ms
+06-29 19:18:31.029  1660  1693 W art     : Long monitor contention event with owner method=int com.android.server.wm.WindowManagerService.relayoutWindow(com.android.server.wm.Session, android.view.IWindow, int, android.view.WindowManager$LayoutParams, int, int, int, int, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.content.res.Configuration, android.view.Surface) from WindowManagerService.java:3103 waiters=1 for 144ms
+06-29 19:18:31.292  1660  1683 W art     : Long monitor contention event with owner method=void com.android.server.wm.WindowAnimator$1.doFrame(long) from WindowAnimator.java:121 waiters=1 for 143ms
+06-29 19:18:31.977  2156  2156 I Choreographer: Skipped 36 frames!  The application may be doing too much work on its main thread.
+06-29 19:18:32.491  1660  1693 W WindowAnimator: Failed to dispatch window animation state change.
+06-29 19:18:32.491  1660  1693 W WindowAnimator: android.os.DeadObjectException
+06-29 19:18:32.491  1660  1693 W WindowAnimator: 	at android.os.BinderProxy.transactNative(Native Method)
+06-29 19:18:32.491  1660  1693 W WindowAnimator: 	at android.os.BinderProxy.transact(Binder.java:503)
+06-29 19:18:32.491  1660  1693 W WindowAnimator: 	at android.view.IWindow$Stub$Proxy.onAnimationStopped(IWindow.java:534)
+06-29 19:18:32.491  1660  1693 W WindowAnimator: 	at com.android.server.wm.WindowAnimator.updateWindowsLocked(WindowAnimator.java:286)
+06-29 19:18:32.491  1660  1693 W WindowAnimator: 	at com.android.server.wm.WindowAnimator.animateLocked(WindowAnimator.java:678)
+06-29 19:18:32.491  1660  1693 W WindowAnimator: 	at com.android.server.wm.WindowAnimator.-wrap0(WindowAnimator.java)
+06-29 19:18:32.491  1660  1693 W WindowAnimator: 	at com.android.server.wm.WindowAnimator$1.doFrame(WindowAnimator.java:123)
+06-29 19:18:32.491  1660  1693 W WindowAnimator: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:856)
+06-29 19:18:32.491  1660  1693 W WindowAnimator: 	at android.view.Choreographer.doCallbacks(Choreographer.java:670)
+06-29 19:18:32.491  1660  1693 W WindowAnimator: 	at android.view.Choreographer.doFrame(Choreographer.java:603)
+06-29 19:18:32.491  1660  1693 W WindowAnimator: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:844)
+06-29 19:18:32.491  1660  1693 W WindowAnimator: 	at android.os.Handler.handleCallback(Handler.java:739)
+06-29 19:18:32.491  1660  1693 W WindowAnimator: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+06-29 19:18:32.491  1660  1693 W WindowAnimator: 	at android.os.Looper.loop(Looper.java:148)
+06-29 19:18:32.491  1660  1693 W WindowAnimator: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+06-29 19:18:32.491  1660  1693 W WindowAnimator: 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+06-29 19:18:32.492  1660  1693 W WindowAnimator: Failed to dispatch window animation state change.
+06-29 19:18:32.492  1660  1693 W WindowAnimator: android.os.DeadObjectException
+06-29 19:18:32.492  1660  1693 W WindowAnimator: 	at android.os.BinderProxy.transactNative(Native Method)
+06-29 19:18:32.492  1660  1693 W WindowAnimator: 	at android.os.BinderProxy.transact(Binder.java:503)
+06-29 19:18:32.492  1660  1693 W WindowAnimator: 	at android.view.IWindow$Stub$Proxy.onAnimationStopped(IWindow.java:534)
+06-29 19:18:32.492  1660  1693 W WindowAnimator: 	at com.android.server.wm.WindowAnimator.updateWindowsLocked(WindowAnimator.java:286)
+06-29 19:18:32.492  1660  1693 W WindowAnimator: 	at com.android.server.wm.WindowAnimator.animateLocked(WindowAnimator.java:678)
+06-29 19:18:32.492  1660  1693 W WindowAnimator: 	at com.android.server.wm.WindowAnimator.-wrap0(WindowAnimator.java)
+06-29 19:18:32.492  1660  1693 W WindowAnimator: 	at com.android.server.wm.WindowAnimator$1.doFrame(WindowAnimator.java:123)
+06-29 19:18:32.492  1660  1693 W WindowAnimator: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:856)
+06-29 19:18:32.492  1660  1693 W WindowAnimator: 	at android.view.Choreographer.doCallbacks(Choreographer.java:670)
+06-29 19:18:32.492  1660  1693 W WindowAnimator: 	at android.view.Choreographer.doFrame(Choreographer.java:603)
+06-29 19:18:32.492  1660  1693 W WindowAnimator: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:844)
+06-29 19:18:32.492  1660  1693 W WindowAnimator: 	at android.os.Handler.handleCallback(Handler.java:739)
+06-29 19:18:32.492  1660  1693 W WindowAnimator: 	at android.os.Handler.dispatchMessage(Handler.java:95)
+06-29 19:18:32.492  1660  1693 W WindowAnimator: 	at android.os.Looper.loop(Looper.java:148)
+06-29 19:18:32.492  1660  1693 W WindowAnimator: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+06-29 19:18:32.492  1660  1693 W WindowAnimator: 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+06-29 19:19:58.000  1203  1643 D AudioFlinger: mixer(0xb4500000) throttle end: throttle time(21)
+06-29 19:19:58.015  1660  2451 W InputMethodManagerService: Got RemoteException sending setActive(false) notification to pid 17790 uid 10047
+06-29 19:19:58.367  1660  1693 W AppOps  : Finishing op nesting under-run: uid 1000 pkg android code 24 time=0 duration=0 nesting=0
